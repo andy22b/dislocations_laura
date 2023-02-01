@@ -1,0 +1,34 @@
+name: dislocations-laura
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pyproj
+  - numpy
+  - numba
+  - geopandas
+  - jupyter
+  - matplotlib
+  - netcdf4
+  - ipython
+  - scipy
+  - rasterio
+  - h5py
+  - pytables
+  - ffmpeg
+  - xlrd
+  - rioxarray
+  - pip
+  - git
+  - git-lfs
+  - sphinx
+  - sphinx-autoapi
+  - cutde
+  - pygmo
+  - pip:
+    - ezdxf
+    - meshio
+    - sphinx-rtd-theme
+    - git+https://github.com/uc-eqgeo/fault-mesh-tools#subdirectory=src
+    - git+https://github.com/uc-eqgeo/rsqsim-python-tools#subdirectory=src/rsqsim_api
+    - ./dislocation_models
